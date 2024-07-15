@@ -105,3 +105,15 @@ span{
     height: 400px;
     margin: 5px;
 }
+
+/* till portfolio -------- */
+
+.newsletter{
+    margin: 50px 100px;
+    padding: 50px;
+    background-color: rgb(238, 95, 123);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
