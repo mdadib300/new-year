@@ -1,0 +1,94 @@
+.text-center{
+    text-align: center;
+}
+
+.big-text{
+    font-size: 70px;
+    margin: 0;
+}
+
+.small-text{
+    font-size: 15px;
+    margin: 0;
+}
+
+.medium-text{
+    font-size: 30px;
+    margin: 0;
+}
+
+.banner{
+    background-image: url('/resources/Background images/Banner Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 100px;
+    padding: 200px;
+}
+
+/* till banner---------------------- */
+
+.discount-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#discount-heading{
+    font-size: 80px;
+    color: red;
+    margin: 0;
+}
+
+/* till discount section------------------------ */
+
+.party{
+    background-image: url('/resources/Background images/party.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 50px 100px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* till party section------------------------ */
+
+span{
+    color: red;
+}
+
+.details{
+    background-image: linear-gradient(aliceblue, rgb(248, 45, 86));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 100px;
+    padding: 70px;
+    border: 0px solid white;
+    border-radius: 15px;
+}
+
+/* till details section------------------- */
+
+.new-offer{
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.offer-image{
+    padding: 0 100px;
+}
+
+/* till new best offer------------ */
+
+.holiday-offer{
+    margin: 50px 100px;
+}
+
+.holiday-image{
+    width: 100%;
+    margin-top: 50px;
+}
