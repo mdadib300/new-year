@@ -1,3 +1,18 @@
+/* common-styles */
+body {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+.white-text{
+    color: white;
+}
+
+.crimson-text{
+    color: crimson;
+}
+
 .text-center{
     text-align: center;
 }
@@ -17,16 +32,33 @@
     margin: 0;
 }
 
+.join-now-btn{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+input{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+
+/* banner-styles */
 .banner{
     background-image: url('/resources/Background images/Banner Image.png');
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 50px 100px;
+    margin: 50px 100px 0 100px;
     padding: 200px;
 }
 
-/* till banner---------------------- */
-
+/* discount-section-styles */
 .discount-section{
     display: flex;
     flex-direction: column;
@@ -35,44 +67,39 @@
 
 #discount-heading{
     font-size: 80px;
-    color: red;
     margin: 0;
 }
 
-/* till discount section------------------------ */
+.discount-section img{
+    margin-top: 25px;
+}
 
+/* party-section-styles */
 .party{
     background-image: url('/resources/Background images/party.png');
     background-repeat: no-repeat;
     background-size: contain;
-    margin: 50px 100px;
+    margin: 100px 100px 50px 100px;
     padding: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-/* till party section------------------------ */
-
-span{
-    color: red;
-}
-
+/* details-section-styles */
 .details{
-    background-image: linear-gradient(aliceblue, rgb(248, 45, 86));
+    background-image: linear-gradient(rgb(207, 150, 161), rgb(255, 255, 255));
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 100px;
+    margin: 100px 100px 50px 100px;
     padding: 70px;
-    border: 0px solid white;
     border-radius: 15px;
 }
 
-/* till details section------------------- */
-
+/* new-offer-section-styles */
 .new-offer{
-    margin: 50px 100px;
+    margin: 100px 100px 50px 100px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -82,10 +109,9 @@ span{
     padding: 0 100px;
 }
 
-/* till new best offer------------ */
-
+/* holiday-offer-section-styles */
 .holiday-offer{
-    margin: 50px 100px;
+    margin: 100px 100px 50px 100px;
 }
 
 .holiday-image{
@@ -93,11 +119,9 @@ span{
     margin-top: 50px;
 }
 
-
-/* till holiday offer-------- */
-
+/* portfolio-section-styles */
 .portfolio{
-    margin: 50px 100px;
+    margin: 100px 100px 50px 100px;
 }
 
 .portfolio-img img{
@@ -106,22 +130,30 @@ span{
     margin: 5px;
 }
 
-/* till portfolio -------- */
-
+/* newsletter-section-styles */
 .newsletter{
-    margin: 50px 100px;
+    margin: 100px 100px 50px 100px;
     padding: 50px;
-    background-color: rgb(238, 95, 123);
+    background-color: crimson;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* till newsletter-------- */
+.subscribe-btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
 
+/* footer-styles */
 footer{
     background-color: rgb(0, 0, 32);
+    margin-top: 100px;
     padding: 50px;
     color: white;
 }
