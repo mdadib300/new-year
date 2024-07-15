@@ -92,3 +92,16 @@ span{
     width: 100%;
     margin-top: 50px;
 }
+
+
+/* till holiday offer-------- */
+
+.portfolio{
+    margin: 50px 100px;
+}
+
+.portfolio-img img{
+    width: 380px;
+    height: 400px;
+    margin: 5px;
+}
