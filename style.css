@@ -117,3 +117,41 @@ span{
     flex-direction: column;
     align-items: center;
 }
+
+/* till newsletter-------- */
+
+footer{
+    background-color: rgb(0, 0, 32);
+    padding: 50px;
+    color: white;
+}
+
+.footer-upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-with-icon{
+    display: flex;
+    align-items: center;
+}
+
+.info-with-icon img{
+    margin-right: 5px;
+}
+
+.footer-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.footer-middle img{
+    margin-right: 5px;
+}
+
+.footer-lower{
+    display: flex;
+    justify-content: space-between;
+}
